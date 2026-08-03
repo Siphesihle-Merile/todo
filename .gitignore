@@ -44,3 +44,7 @@ todo.db
 todo.db-journal
 todo.db-wal
 todo.db-shm
+test.db
+test.db-journal
+test.db-wal
+test.db-shm
