@@ -27,7 +27,9 @@ See [`docs/running-it.md`](docs/running-it.md) for exact install, run, and test 
 
 This repository makes use of AI code generation using the following tools: Claude-Web[Claude Sonnet 5].
 
-All commits in this repository's history were made with the assistance of Claude-Web[Claude Sonnet 5], across a single continuous chat session covering planning, code generation, debugging, and documentation. Commits from this point forward include an "Assisted-by" trailer per commit. A full transcript of this session is included in the submission per the course AI Policy and assignment brief.
+All commits in this repository's history were made with the assistance of Claude-Web[Claude Sonnet 5], across a single continuous chat session covering planning, code generation, debugging, and documentation. Commits from this point forward include an "Assisted-by" trailer per commit.
+
+Full transcript: https://claude.ai/share/ee3ea4fd-120f-4f2c-b86b-126c0a411318
 
 This repository does not use AI in-line editing tools.
 
