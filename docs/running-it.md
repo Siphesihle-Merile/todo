@@ -36,3 +36,20 @@ This runs the full Vitest suite once and exits. Tests run against a separate `te
 ## Stopping the application
 
 Press `Ctrl+C` in the terminal running `npm run dev`. All data is already persisted to `todo.db` on disk at this point; restarting with `npm run dev` again will show the same tasks exactly as they were left.
+
+## Troubleshooting
+
+### "Could not locate the bindings file" error involving better-sqlite3
+
+`better-sqlite3` includes a native binary that must be compiled or downloaded for your specific operating system and Node version as part of installation. On some systems this step does not complete correctly during a normal `npm install`. If you see this error when running the application, run:
+
+```bash
+npm rebuild better-sqlite3
+```
+
+then restart the application with `npm run dev`. If the error persists, perform a full clean reinstall:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
